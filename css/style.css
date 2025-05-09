@@ -1,0 +1,46 @@
+/* Quick CSS Reset with Pretty Lists */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+  }
+  /* Pretty unordered list */
+  ul {
+    list-style: none;
+  }
+
+  .container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 3rem;
+}
+
+li{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: lightgoldenrodyellow;
+
+}
+
+#new-mails{
+    display: block;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: lightcyan;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+#new-mails:active {
+    background-color: rgb(136, 245, 245);
+}
